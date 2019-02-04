@@ -352,7 +352,7 @@ function chickTechGallery(){
         method: 'get',
         dataType: 'json',
         data: {
-            api_key: 'e00e98b08d999c1fbe15689b175ad887',
+            api_key: config.flickr,
             method: 'flickr.photosets.getPhotos',
             photoset_id: '72157673615663237',
             user_id: '92769341@N03',
@@ -385,7 +385,7 @@ function girlDevelopItGallery(){
         method: 'get',
         dataType: 'json',
         data: {
-            api_key: 'e00e98b08d999c1fbe15689b175ad887',
+            api_key: config.flickr,
             method: 'flickr.photosets.getPhotos',
             photoset_id: '72157639104508314',
             user_id: '10512012@N08',
@@ -419,7 +419,7 @@ function girlsInTechGallery(){
         method: 'get',
         dataType: 'json',
         data: {
-            api_key: 'e00e98b08d999c1fbe15689b175ad887',
+            api_key: config.flickr,
             method: 'flickr.people.getPublicPhotos',
             user_id: '29179749@N03',
             format: 'json',
