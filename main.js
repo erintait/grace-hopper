@@ -32,7 +32,7 @@ var meetup = {
         text_format: 'plain',
         radius: '35',
         sign: true,
-        key: '554071754212291c41435871a39671'
+        key: config.meetup
     },
     success: function (result) {
         showSpinner = false;
