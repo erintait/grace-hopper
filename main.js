@@ -26,7 +26,7 @@ var meetup = {
     data: {
         format: 'json',
         zip: '92833',
-        text: 'women AND tech',
+        text: 'women AND technology',
         time: ',2w',
         and_text: 'true',
         text_format: 'plain',
@@ -303,7 +303,7 @@ function getFourList(meetupStorage){
 
 }
 
-function addDataOntoPage () {
+function addDataOntoPage(event) {
     for(let i = 0; i < meetupStorage.eventName.length; i++){
         var attributeIndex = i.toString();
         if($(event.currentTarget).attr("index") === attributeIndex){

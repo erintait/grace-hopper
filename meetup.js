@@ -12,21 +12,3 @@ var meetUp = {
 }
 
 $.ajax(meetUp)
-
-// function dataStorage(events){
-//     var groupNameArr = [];
-//     var eventDescriptionsArr = [];
-//     var eventUrlArr = [];
-//     var venueNameArr = [];
-//     var venueAddressArr = [];
-//     var venueCityArr = [];
-//     var venueStateArr = [];
-//     var latitudeArr = [];
-//     var longitudeArr = [];
-//     var eventNameArr = [];
-//     var dateArr = [];
-//     var photoUrl = [];
-
-
-
-// }
